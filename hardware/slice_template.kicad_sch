@@ -8986,9 +8986,9 @@
 		)
 		(uuid "516cfca0-8e1a-4cb0-bf6f-6e45735fe3a4")
 	)
-	(text "JP1-JP4, top to bottom: I2C_CLK, I2C_DAT, SYNC, INT.\nBridged (default) = I2C; cut all four for CAN."
+	(text "JP1-JP4, top to bottom:\nI2C_CLK, I2C_DAT, SYNC, INT.\nBridged (default) = I2C;\ncut all four for CAN."
 		(exclude_from_sim no)
-		(at 165.1 80.01 0)
+		(at 173.99 85.09 0)
 		(effects
 			(font
 				(size 1 1)
