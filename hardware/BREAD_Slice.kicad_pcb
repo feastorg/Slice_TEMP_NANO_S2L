@@ -2031,7 +2031,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/slice_template/INT{slash}CAN_{INT}")
+			(net "/slice_template/INT{slash}D3")
 			(pinfunction "D3")
 			(pintype "bidirectional")
 			(uuid "b5bd9f16-670d-4ad7-bd49-1a0a317e1fb5")
@@ -2042,7 +2042,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/slice_template/SYNC{slash}CAN_{CS}")
+			(net "/slice_template/SYNC{slash}D4")
 			(pinfunction "D4")
 			(pintype "bidirectional")
 			(uuid "c52511c3-2e5f-43ae-ae9e-bb4e894c17d1")
@@ -3030,7 +3030,7 @@
 				)
 			)
 		)
-		(property "Description" "Bridged = bus SYNC to the Nano (I2C); cut for CAN"
+		(property "Description" "Bridged = bus SYNC to the Nano; cut to isolate it"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3235,7 +3235,7 @@
 			(at 0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net "/slice_template/SYNC{slash}CAN_{CS}")
+			(net "/slice_template/SYNC{slash}D4")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
 			(options
@@ -3309,7 +3309,7 @@
 				)
 			)
 		)
-		(property "Description" "Bridged = bus INT to the Nano (I2C); cut for CAN"
+		(property "Description" "Bridged = bus INT to the Nano; cut to isolate it"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3514,7 +3514,7 @@
 			(at 0.65 0)
 			(size 1 0.5)
 			(layers "F.Cu" "F.Mask")
-			(net "/slice_template/INT{slash}CAN_{INT}")
+			(net "/slice_template/INT{slash}D3")
 			(zone_connect 2)
 			(thermal_bridge_angle 45)
 			(options
@@ -5502,7 +5502,7 @@
 				)
 			)
 		)
-		(property "Description" "Bridged = bus I2C_DAT to the Nano (I2C); cut for CAN"
+		(property "Description" "Bridged = bus I2C_DAT to the Nano; cut to isolate it"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5781,7 +5781,7 @@
 				)
 			)
 		)
-		(property "Description" "Bridged = bus I2C_CLK to the Nano (I2C); cut for CAN"
+		(property "Description" "Bridged = bus I2C_CLK to the Nano; cut to isolate it"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8415,7 +8415,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "JP: I2C"
+	(gr_text "JP: BUS"
 		(at 134.4 103.5 0)
 		(layer "F.SilkS")
 		(uuid "224837f4-db1f-4650-aadc-de2969f4494c")
@@ -9570,7 +9570,7 @@
 		(end 138.6 102.14)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/slice_template/INT{slash}CAN_{INT}")
+		(net "/slice_template/INT{slash}D3")
 		(uuid "0d837474-e1c5-4ed6-8d70-eb4dfc51dcb8")
 	)
 	(segment
@@ -9578,7 +9578,7 @@
 		(end 142.61 110.14)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/slice_template/INT{slash}CAN_{INT}")
+		(net "/slice_template/INT{slash}D3")
 		(uuid "895eb191-f466-42c6-a8f3-344e88bc2fed")
 	)
 	(segment
@@ -9586,7 +9586,7 @@
 		(end 138.6 106.13)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/slice_template/INT{slash}CAN_{INT}")
+		(net "/slice_template/INT{slash}D3")
 		(uuid "c7ff6a41-7334-421b-b856-5fd5492e8479")
 	)
 	(segment
@@ -9594,7 +9594,7 @@
 		(end 142.61 112.68)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC{slash}CAN_{CS}")
+		(net "/slice_template/SYNC{slash}D4")
 		(uuid "21755b6e-e94e-4578-a482-c86f2a4c01ab")
 	)
 	(segment
@@ -9602,7 +9602,7 @@
 		(end 137.6 103.68)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC{slash}CAN_{CS}")
+		(net "/slice_template/SYNC{slash}D4")
 		(uuid "4b6e936b-7660-481c-a916-82962d70f5ad")
 	)
 	(segment
@@ -9610,7 +9610,7 @@
 		(end 137.6 107.67)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/slice_template/SYNC{slash}CAN_{CS}")
+		(net "/slice_template/SYNC{slash}D4")
 		(uuid "7815a4ab-07f1-4d50-b628-9a1492bfc623")
 	)
 	(segment
