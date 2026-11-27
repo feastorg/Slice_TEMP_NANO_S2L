@@ -1,6 +1,6 @@
 # Slice Template
 
-Template for creating BREAD slices. Features Arduino Nano, small dimensions (70x100mm), 2 layers, and this is the second revision (TEMP_NANO_S2L-r2).
+Template for creating BREAD slices. Features Arduino Nano, small dimensions (70x100mm), 2 layers.
 
 ## Introduction
 
